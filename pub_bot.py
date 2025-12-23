@@ -256,9 +256,7 @@ async def slash_export(interaction: discord.Interaction):
 		team_info_fixed = []
 		for element in team_info:
 			team_info_fixed.append(element.strip())
-		detail = '''{}  {}  {}  {}  {}'''.format(team_info_fixed[0], team_info_fixed[1], team_info_fixed[2], team_info_fixed[3], team_info_fixed[4])
-		detail = detail.split()
-		top_comp.append(detail)
+		top_comp.append(team_info_fixed)
 
 	table = tabulate(top_comp, header)
 
@@ -295,10 +293,7 @@ async def slash_image(interaction: discord.Interaction, name: str, num: int = 10
 		for element in team_info:
 			team_info_fixed.append(element.strip())
 
-		detail = '''{}	{}	{}  {}'''.format(
-			team_info_fixed[0], team_info_fixed[1], team_info_fixed[2], team_info_fixed[3])
-		detail = detail.split()
-		comp.append(detail)
+		comp.append(team_info_fixed)
 
 	formatted = "```" + tabulate(comp, header) + "```"
 
