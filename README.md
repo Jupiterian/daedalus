@@ -77,7 +77,7 @@ All commands also work with the `d ` prefix:
 - `d ping`
 - `d server`
 - `d top`
-- `d scoreboard <number>` or `d sc <number>`
+- `d scoreboard <number>`
 - `d team <team_name>`
 - And so on...
 
