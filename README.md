@@ -99,7 +99,7 @@ All commands also work with the `d ` prefix:
 2. **Slash Commands**: All commands available as modern slash commands
 3. **Command Tree**: Automatic syncing on bot startup
 4. **Interactions**: Proper use of `defer()` and `followup` for async operations
-5. **Backwards Compatibility**: Original prefix commands still work
+5. **Misalighnment Fix**: Commands such as top and image did not work for multiword names. Now all these commands have been fixed to store in a list and no misalighnments are happening.
 
 ## Migration Notes
 
