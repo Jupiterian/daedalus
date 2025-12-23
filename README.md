@@ -89,7 +89,7 @@ All commands also work with the `d ` prefix:
 - ✅ Added `app_commands` for slash command support
 - ✅ Implemented command tree syncing
 - ✅ Added `interaction.response.defer()` for long-running operations
-- ✅ Converted all commands to both prefix and slash command formats
+- ✅ Converted all commands to slash command formats
 - ✅ Fixed deprecated API calls
 - ✅ Improved error handling for message size limits
 
